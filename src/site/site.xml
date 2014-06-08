@@ -109,18 +109,17 @@
       <item name="JavaDoc" href="apidocs/index.html" />
       <item name="Test JavaDoc" href="testapidocs/index.html" />
   
-	<item name="Modules" href="javadoc_modules.html">
+      <item name="Modules" href="javadoc_modules.html">
         <item name="Aggregators" href="aggregators.html"/>
         <item name="Out-of-core" href="ooc.html"/>
         <item name="Implementation" href="implementation.html"/>
         <item name="Page Rank Example" href="pagerank.html"/>
-     </item>   
-     <item name="Input/Output in Giraph" href="io.html">
-        <item name="Hive" href="hive.html"/>
-	    <item name="Gora" href="gora.html"/>
-    	<item name="Rexster I/O" href="rexster.html"/>
+        <item name="Input/Output in Giraph" href="io.html">
+          <item name="Hive" href="hive.html"/>
+	  <item name="Gora" href="gora.html"/>
+    	  <item name="Rexster I/O" href="rexster.html"/>
+        </item>
       </item>
- 
       <item name="How to generate patches?" href="generating_patches.html" />
       <item name="How to build this site?" href="build_site.html" />
     </menu>
