@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Literature about Apache Giraph</title>
+  </properties>
+
+  <body>
+
+    <section name="Research Articles">
+		<p>Tian, Y., Balmin, A., Corsten, S. A., Tatikonda, S., &amp; McPherson, J. (2013). <i>From <b>Think Like a Vertex</b> to <b>Think Like a Graph</b></i>. Proceedings of the VLDB Endowment, 7(3). <br/>
+        <a href="http://researcher.ibm.com/researcher/files/us-ytian/giraph++.pdf">http://researcher.ibm.com/researcher/files/us-ytian/giraph++.pdf</a>
+        </p>
+
+		<p>Xin, R. S., Crankshaw, D., Dave, A., Gonzalez, J. E., Franklin, M. J., &amp; Stoica, I. (2014). <i>GraphX: Unifying Data-Parallel and Graph-Parallel Analytics</i>. arXiv preprint arXiv:1402.2394. <br/>
+        <a href="http://arxiv.org/pdf/1402.2394">http://arxiv.org/pdf/1402.2394</a>
+        </p>
+
+		<p>Schelter, S., Ewen, S., Tzoumas, K., &amp; Markl, V. (2013, October). <i>All roads lead to Rome: optimistic recovery for distributed iterative data processing</i>. In Proceedings of the 22nd ACM international conference on Conference on information &amp; knowledge management (pp. 1919-1928). ACM.<br/>
+        <a href="http://stratosphere.eu/assets/papers/optimistic.pdf">http://stratosphere.eu/assets/papers/optimistic.pdf</a>
+        </p>
+
+        <p>Ewen, S., Tzoumas, K., Kaufmann, M., &amp; Markl, V. (2012). <i>Spinning fast iterative data flows</i>. Proceedings of the VLDB Endowment, 5(11), 1268-1279.<br/>
+        <a href="http://arxiv.org/pdf/1208.0088.pdf?origin=publication_detail">http://arxiv.org/pdf/1208.0088.pdf?origin=publication_detail</a>
+		</p>
+		
+    </section>
+
+  </body>
+</document>

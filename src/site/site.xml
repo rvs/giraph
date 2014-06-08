@@ -31,8 +31,17 @@
       <googlePlusOne />
       <topBarEnabled>true</topBarEnabled>
       <sideBarEnabled>false</sideBarEnabled>
+      <!--topBarIcon>
+        <name>icon</name>
+        <alt>Apache Giraph Icon</alt>
+        <src>/images/transparent-giraph-icon.png</src>
+        <href>/index.html</href>
+      </topBarIcon -->
+      <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
     </fluidoSkin>
   </custom>
+
+  
  
   <bannerLeft>
     <src>images/ApacheGiraph.svg</src>
@@ -59,38 +68,61 @@
       <item name="Dependencies" href="dependencies.html" />
       <item name="Reports" href="project-reports.html" collapse="true">
         <item name="Surefire Report" href="surefire-report.html" />
-        <item name="Checkstyle Results" href="checkstyle.html" />
-        <item name="Jdepend" href="jdepend-report.html" />
-        <item name="Cobertura Test Coverage" href="cobertura/index.html" />
-        <item name="Tag List" href="taglist.html" />
-        <item name="Source Xref" href="xref/index.html" />
-        <item name="Test Source Xref" href="xref-test/index.html" />
+        <item name="Checkstyle Results" href="checkstyle-aggregate.html" />
+        <!--item name="Jdepend" href="jdepend-report.html" /-->
+        <!--item name="Cobertura Test Coverage" href="cobertura/index.html" /-->
+        <!--item name="Tag List" href="taglist.html" /-->
+        <item name="JavaDoc" href="apidocs/index.html" />
+        <item name="Test JavaDoc" href="testapidocs/index.html" />
       </item>
     </menu>
+
+    <!--menu name="Modules" inherit="top">
+      <item name="Giraph-Parent" href="./../../index.html" />
+      <item name="Giraph-Core" href="mod/giraph-core/index.html" />
+      <item name="Giraph-Examples" href="giraph-examples/index.html" />
+      <item name="Giraph-HBase I/O" href="giraph-examples/index.html" />
+      <item name="Giraph-Accumulo I/O" href="giraph-examples/index.html" />
+      <item name="Giraph-HCatalog I/O" href="giraph-examples/index.html" />
+      <item name="Giraph-Hive I/O" href="giraph-examples/index.html" />
+      <item name="Giraph-Gora I/O" href="giraph-examples/index.html" />
+      <item name="Giraph-Rexster I/O" href="giraph-examples/index.html" />
+      <item name="Giraph-Rexster Kibble" href="giraph-examples/index.html" />
+      <item name="Giraph-Rexster I/O Formats" href="giraph-examples/index.html" />
+      <item name="Giraph-Distribution" href="giraph-examples/index.html" />
+    </menu-->
+
     
     <menu name="User Docs" inherit="top">
       <item name="Introduction" href="intro.html"/>
+      <item name="Related Literature" href="literature.html"/>
+      <item name="Download Releases" href="releases.html"/>
       <item name="Quick Start" href="quick_start.html"/>
       <item name="Building and Testing" href="build.html"/>
-      <item name="FAQ" href="faq.html"/>
-      <item name="Implementation" href="implementation.html"/>
-      <item name="Download Releases" href="releases.html"/>
-      <item name="Page Rank Example" href="pagerank.html"/>
-      <item name="Input/Output in Giraph" href="io.html"/>
-      <item name="Hive" href="hive.html"/>
-      <item name="Gora" href="gora.html"/>
-      <item name="Rexster I/O" href="rexster.html"/>
-      <item name="Aggregators" href="aggregators.html"/>
-      <item name="Out-of-core" href="ooc.html"/>
-      <item name="Javadoc" href="javadoc_modules.html"/>
       <item name="Options List" href="options.html"/>
+      <item name="FAQ" href="faq.html"/>
       <item name="Presentations" href="presentations.html"/>
       <item name="External Community Wiki" href="https://cwiki.apache.org/confluence/display/GIRAPH" />
     </menu> 
 
     <menu name="Developer Docs" inherit="top">
-      <item name="How to generate patches" href="generating_patches.html" />
-      <item name="How to build this site" href="build_site.html" />
+      <item name="JavaDoc" href="apidocs/index.html" />
+      <item name="Test JavaDoc" href="testapidocs/index.html" />
+  
+	<item name="Modules" href="javadoc_modules.html">
+        <item name="Aggregators" href="aggregators.html"/>
+        <item name="Out-of-core" href="ooc.html"/>
+        <item name="Implementation" href="implementation.html"/>
+        <item name="Page Rank Example" href="pagerank.html"/>
+     </item>   
+     <item name="Input/Output in Giraph" href="io.html">
+        <item name="Hive" href="hive.html"/>
+	    <item name="Gora" href="gora.html"/>
+    	<item name="Rexster I/O" href="rexster.html"/>
+      </item>
+ 
+      <item name="How to generate patches?" href="generating_patches.html" />
+      <item name="How to build this site?" href="build_site.html" />
     </menu>
   </body>
 </project>
